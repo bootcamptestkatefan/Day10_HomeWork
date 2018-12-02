@@ -14,4 +14,6 @@ class WebTestUtil {
     public static <T> T getContentAsObject(MvcResult result, Class<T> clazz) throws Exception {
         return toObject(result.getResponse().getContentAsString(), clazz);
     }
+
+
 }
